@@ -1,0 +1,42 @@
+Open Source
+
+Full Stack - different frameworks seamlesslessly, built for productivity
+
+Cross Platform - multiple servers
+
+Data Abstraction - allows to interact with databases without doing sql
+
+Object Oriented - everything is an object
+
+Opinionated Software - drags developer in doing things in a certain approach
+
+Convention over configuration - specific convention over creating files and folders 
+
+
+Controllers should  always be PLURAL 	-> posts	$ rails g controller posts
+Model are always SINGULAR				-> posts    $ rails g model post name:string age:integer
+
+Action is a method in a controlloer
+7 action in rails
+-index 	: root action, (dispalys all posts)
+-edit	: edit posts
+-new	: new post
+-create	: create a post
+-destroy: delete that 
+-update	: updates the existing post
+-shows  : shows the posts
+
+Views are the part where we keep the HTML, enbedded JS, Ruby code.
+It is the page which is rendered to the viewer.
+
+routes.rb : It is the configuration file that is used the most.
+			Contains all the links and stuff. 
+			eg -> resources :posts
+			Create the viewable link '/posts' that the viewers can view.
+
+Rake is something lika a makefile for Ruby.
+$ rake routes 		: shows the different routes available in the project.
+
+
+Tables by default in rails have 3 fields, id, create_timestamp, update_timestamp. Tables are cereated by models.
+$ rake db:migrate	: migrates the databse to system.
