@@ -1,0 +1,4 @@
+Generates everything on its own from models to controllers and views.
+$ rails g scaffold Category name:string
+
+Creates some code also.
