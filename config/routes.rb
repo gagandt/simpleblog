@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   #manually adding links
   get 'about' => 'pages#about', as: 'about'
 
+  #get 
+
   #automatically adding
   resources :posts
 end
